@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хостинг</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="start-hosting.css" />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-5.11.2-web/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="backdrop"></div>
+
+    <header class="main-header">
+      <div>
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+        <a href="../index.html" class="main-header__brand">
+          <img
+            src="../images/icon7.png"
+            alt="uHost - Your favorite hosting company"
+          />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="../packages/index.html">Выбор Плана</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../customers/index.html">Отзывы Клиентов</a>
+          </li>
+          <li class="main-nav__item main-nav__item--cta">
+            <a href="../start-hosting/index.html">Начать Хостинг</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="../packages/index.html">Выбор Плана</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="index.html">Отзывы Клиентов</a>
+        </li>
+        <li class="mobile-nav__item main-nav__item--cta">
+          <a href="../start-hosting/index.html">Начать Хостинг</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="signup-page">
+      <h1 class="signup-title">Супер! Давайте начнём прямо сейчас!</h1>
+      <form action="index.html" class="signup-form">
+        <label for="title">Выберите Пол</label>
+        <select id="title">
+          <option value="mr">М.</option>
+          <option value="ms">Ж.</option>
+        </select>
+        <label for="first-name">Ваше Имя</label>
+        <input type="text" id="first-name" required />
+        <label for="last-name">Ваша Фамилия</label>
+        <input type="text" id="last-name" required />
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required />
+        <label for="password">Пароль</label>
+        <input type="password" id="password" required />
+        <div class="signup-form__checkbox">
+          <input type="checkbox" id="agree-terms" required />
+          <label for="agree-terms"
+            >Согласиться с <a href="#">Условиями Использования</a></label
+          >
+        </div>
+
+        <button type="submit" class="button">Регистрация</button>
+      </form>
+    </main>
+    <footer class="main-footer">
+      <nav>
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="#">Поддержка</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="#">Условия Использования</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="#" class="social-link">
+              <i class="fab fa-twitter-square fa-lg"></i>
+              Twitter
+            </a>
+          </li>
+          <li class="main-footer__link">
+            <a href="#" class="social-link">
+              <i class="fab fa-facebook-square fa-lg"></i>
+              Facebook
+            </a>
+          </li>
+          <li class="main-footer__link">
+            <a href="#" class="social-link">
+              <i class="fab fa-instagram fa-lg"></i>
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="../shared.js"></script>
+  </body>
+</html>
